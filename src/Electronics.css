@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headcart h1{
+  text-align: center;  
+}
+.electronicitemlist{
+    
+    max-width:1300px;
+    max-height: 1000px;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    gap:10rem;
+   
+    background-color:lightblue;
+    color:rgb(97, 131, 153);
+}
+
+.electronics {
+    background:white;
+    border-radius: 2rem;
+    padding:1rem 2rem;
+    margin:10px;
+    cursor: pointer;
+}
+
+.electronics h3{
+margin-top: 0.5rem;
+font-size: small;
+
+}
+
+.electronics h5{
+    color:royalblue;
+    margin-top:0.25rem;
+    font-size: medium;
+}
+.electronics p{
+    color:red;
+    margin-top: 0.25rem;
+    
+}
+.electronics button{
+    background-color:darkturquoise;
+    color:black;
+    border-radius: 9px;
+    width: 90px;
+    height: 30px;
+}
+
+.electronics img{
+    width:90px;
+    height:150px;
+    align-items: center;
+
+}
+
+@media screen and (min-width:768px){
+    .electronicitemlist{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+.electronicproduct{
+    
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.description{
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.description h4{
+   font-size: small;
+   font-weight: lighter;
+}
+
+.electronicproduct #electronicimg{
+    padding-top: 40px;
+    width:200px;
+    height:400px;
+}
+.electronicproduct h3{
+    color:royalblue;
+    font-size: large;
+}
+.electronicproduct p{
+    color:red;
+    margin-top: 0.50rem;
+}
+.electronicproduct h5{
+    color:royalblue;
+    margin-top:0.50rem;
+    font-size: medium;
+}
+.imgandtext{
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    margin-top: 20px;
+}
+#featureimg{
+    width:50px;
+    height:50px;
+    
+}
+.discont{
+    margin-left: 20px;
+    vertical-align: center;
+}
+.discont h5{
+    font-size:small;
+}
+.headcart h1{
+    text-align: center;
+    color:darkturquoise;
+    text-shadow: darkturquoise;
+    font-weight: bold;
+}
+
+.btnconntainer{
+    box-sizing: border-box;
+    vertical-align: center;
+    display: flex;
+    
+}
+
+.cartbtn{
+    width:100px;
+    height:30px;
+    border-radius: 4px;
+    background-color:darkturquoise;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.buybtn{
+    width:100px;
+    height:30px;
+    border-radius: 4px;
+    background-color: darkturquoise;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+ svg{
+width:35px;
+height:35px;
+
+}
+.headcart{
+    display:flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+    h1{
+        text-align: center;
+    }
+    .electronicproduct #electronicimg{
+        padding-top: 0px;
+        width:150px;
+        height:200px;
+    }
+    .electronicproduct h3{
+        color:royalblue;
+        font-size: large;
+        margin-top: 30px;
+    }
+    .cartbtn{
+        width:120px;
+        height:30px;
+        border-radius: 4px;
+        background-color:darkturquoise;
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+    .buybtn{
+        width:120px;
+        height:30px;
+        border-radius: 4px;
+        background-color: darkturquoise;
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+    .description h4{
+        font-size: small;
+        font-weight: normal;
+     }
+     .electronicitemlist{
+    
+        max-width:476px;
+        max-height: 590px;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: flex;
+        gap:10rem;
+       
+        background-color:lightblue;
+        color:rgb(97, 131, 153);
+    }
+    
+    .electronics {
+        background:white;
+        border-radius: 2rem;
+        padding:1rem 2rem;
+        margin:10px;
+        cursor: pointer;
+    }
+    
+    .electronics h3{
+    margin-top: 10px;
+    font-size: large;
+    
+    }
+    
+    .electronics h5{
+        color:royalblue;
+        margin-top:10px;
+        font-size: medium;
+    }
+    .electronics p{
+        color:red;
+        margin-top: 10px;
+        
+    }
+    .electronics button{
+        background-color:darkturquoise;
+        color:black;
+        border-radius: 9px;
+        width: 120px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    
+    .electronics img{
+        width:100px;
+        height:170px;
+        align-items: center;
+    
+    }
+  }

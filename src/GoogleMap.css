@@ -1,0 +1,20 @@
+.mapmyindia{
+    align-items: center;
+    margin-top: 20px;
+    width: 900px;
+    height:100px;
+    margin-left: 195px;
+    }
+.typeaddress{
+    vertical-align: center;
+}    
+
+@media screen and (max-width: 576px) {
+    .mapmyindia{
+        align-items: center;
+        margin-top: 20px;
+        width: 400px;
+        height:100px;
+        margin-left: 5px;
+    }   
+}

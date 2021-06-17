@@ -1,0 +1,15 @@
+
+
+.bestdealimg{
+    width: 1400px;
+    height: 300px; 
+}
+
+@media screen and (max-width: 576px) {
+    .bestdealimg{
+        width: 476px;
+        height: 300px; 
+    }  
+}
+
+

@@ -1,0 +1,308 @@
+.container {
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    background-color:skyblue;
+   }
+   
+
+
+ .container h3:hover{
+     margin-left: 8px;
+     margin-right: 8px;
+     cursor:pointer;
+     background:white;
+     
+ } 
+
+ 
+
+
+ .container #search{
+    margin-left: 2px;
+    border-radius: 7px;
+    width:650px;
+    height:30px;
+
+ }
+ .container #address{
+     color:white;
+     margin-left: 8px;
+     border-radius: 7px;
+     width:100px;
+     height:130px;
+ }
+
+
+.container #imgstyle{
+width:70px;
+height:90px;
+
+margin-top: 5px;
+margin-left: 5px;
+margin-right:8px;
+}
+#img1style:hover{
+    cursor:pointer;
+background:darkslategray;
+}
+
+
+
+.container #img1style{
+    width:30px;
+    height:33px;
+    margin-right: 8px;
+    cursor:pointer;
+    background-color: darkgrey;
+}
+
+.container1 #cart {
+    width: 50px;
+    height: 50px;
+    margin-left: 8px;
+    margin-right: 8px;
+    
+}
+
+.container1 h3{
+    padding-left: 10px;
+    
+}
+
+
+.container1:hover{
+    
+    background: white;
+    cursor:pointer;
+    padding-left: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.container2 #img2style{
+    width:50px;
+    height:50px;
+    margin-right: 8px;
+    margin-left: 8px;
+    
+}
+
+.container2:hover{
+    
+    background: white;
+    padding-top: 1px;
+    cursor:pointer;
+    padding-left: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.container3{
+    margin-left: 10px;
+}
+
+.container3 #logout{
+    width:30px;
+    height:30px;
+    margin-left: 15px;
+}
+.container3:hover{
+    
+    background: white;
+    padding-top: 1px;
+    cursor:pointer;
+}
+
+.locationcontainer:hover{
+    background: white;
+    padding-top: 1px;
+    cursor:pointer;
+    margin-left: 8px;
+    margin-right: 8px;
+    
+}
+
+ #locationicon{
+    width:30px;
+    height:30px;
+    margin-left: 35px;
+    vertical-align: center;
+    
+}
+
+.container h4:hover{
+    margin-right: 18px;
+    margin-left: 18px;
+    
+    cursor:pointer;
+     background:white;
+}
+  
+.signinbtn{
+    height:40px;
+    width:120px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+h5{
+    margin-top: 8px;
+}
+b{
+    color:white;
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        display:flex;
+        justify-content:left;
+        align-items:center;
+        background-color:skyblue;
+       }
+       
+    
+    
+     .container h3:hover{
+         margin-left: 8px;
+         margin-right: 8px;
+         cursor:pointer;
+         background:white;
+         
+     } 
+    
+     
+    
+    
+     .container #search{
+        margin-left: 8px;
+        border-radius: 7px;
+        width:450px;
+        height:30px;
+    
+     }
+     .container #address{
+         color:white;
+         margin-left: 8px;
+         border-radius: 7px;
+         width:100px;
+         height:130px;
+     }
+    
+    
+    .container #imgstyle{
+    width:40px;
+    height:40px;
+    
+    margin-top: 0px;
+    margin-left: 2px;
+    margin-right:3px;
+    }
+    #img1style:hover{
+        cursor:pointer;
+    background:darkslategray;
+    }
+    
+    
+    
+    .container #img1style{
+        width:30px;
+        height:30px;
+        margin-right: 8px;
+        cursor:pointer;
+        background-color: darkgrey;
+    }
+    
+    .container1 #cart {
+        width: 50px;
+        height: 50px;
+        margin-left: 8px;
+        margin-right: 8px;
+        
+    }
+    
+    .container1 h3{
+        padding-left: 10px;
+        
+    }
+    
+    
+    .container1:hover{
+        
+        background: white;
+        cursor:pointer;
+        padding-left: 10px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    
+    .container2 #img2style{
+        width:50px;
+        height:50px;
+        margin-right: 8px;
+        margin-left: 8px;
+        
+    }
+    
+    .container2:hover{
+        
+        background: white;
+        padding-top: 1px;
+        cursor:pointer;
+        padding-left: 10px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    
+    .locationcontainer:hover{
+        background: white;
+        padding-top: 1px;
+        cursor:pointer;
+        margin-left: 8px;
+        margin-right: 8px;
+        
+    }
+    .locationcontainer h3{
+        font-size: smaller;
+    }
+    
+     #locationicon{
+        width:20px;
+        height:20px;
+        margin-left: 20px;
+        vertical-align: center;
+        
+    }
+    
+    .container h4:hover{
+        margin-right: 18px;
+        margin-left: 18px;
+        
+        cursor:pointer;
+         background:white;
+    }
+      
+    .signinbtn{
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        width:80px;
+    }
+     
+    h5{
+        margin-top: 8px;
+    }
+    b{
+        color:white;
+    }
+}
+
+
+
+  
+  
+
+
+

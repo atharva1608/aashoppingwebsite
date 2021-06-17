@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.paymentoptions{
+    
+    width:350px;
+    height: 265px;
+    margin-left:250px;
+    margin-top: 150px;
+    border-radius: 10px;
+   text-align: center;
+    background-color:powderblue;
+    color:black;
+    position: absolute;
+    opacity:1;
+}
+.paymentoptions p{
+    margin-top: 20px;
+    color: red;
+}
+.paymentoptions1{
+    
+    background:white;
+    border-radius: 1rem;
+    padding:1rem 2rem;
+   
+    margin:20px;
+    cursor: pointer;
+    text-align: center;
+}
+.paymentoptions2{
+    
+    background:white;
+    border-radius: 1rem;
+    padding:1rem 2rem;
+    margin:20px;
+    cursor: pointer;
+    text-align: center;
+}
+.paymentoptions3{
+    
+    background:white;
+    border-radius: 1rem;
+    padding:1rem 2rem;
+    
+    margin:20px;
+    cursor: pointer;
+    text-align: center;
+}
+.paymentoptions1:hover{
+    background-color:cyan;
+}
+.paymentoptions2:hover{
+    background-color:cyan;
+}
+.paymentoptions3:hover{
+    background-color:cyan;
+}
+
+p{
+    margin-top: 20px;
+}
+.cardimg{
+    margin-top: 20px;
+    margin-left: 20px;
+    width:300px;
+    height:40px;
+}
+.cardnumber{
+    margin-top: 20px;
+    width: 280px;
+    height: 30px;
+    color:black;
+    font-weight: 800;
+}
+.cardholdername{
+    margin-top: 20px;
+    width: 280px;
+    height: 30px;
+    color:black;
+    font-weight: 800;
+}
+.expirycvv{
+    margin-top: 20px;
+
+}
+.mm{
+    width:100px;
+    height: 30px;
+    margin-right: 10px;
+    color:black;
+    font-weight: 800;
+}
+.yyyy{
+    width:105px;
+    height: 30px;
+    color:black;
+    font-weight: 800;
+}
+.cvv{
+    width:60px;
+    height: 30px;
+    margin-left: 10px;
+    color:black;
+    font-weight: 800;
+}
+.continue{
+    width:120px;
+    height:30px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.check{
+    color:red;
+    margin-top: 20px;
+}
+.continue:hover{
+    background-color:powderblue;
+}
+.headtext1{
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+    margin-left: 555px;
+  }
+.card{
+    margin: 0;
+    padding: 3px;
+    box-sizing: border-box;
+    opacity: 0.9;
+    width:350px;
+    height: 380px;
+    border-radius: 10px;
+    margin-left:770px;
+    margin-top: 100px;
+   text-align: center;
+    background-color:lightsteelblue;
+    color:black;
+    position: absolute;
+}
+.username{
+   
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.inputname{
+    width:250px;
+}
+.useraddress{
+   
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.inputaddress{
+    width:250px;
+    height:100px;
+}
+.orderbutton{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: cyan;
+}
+.cashondelivery{
+    margin: 0;
+    padding: 3px;
+    box-sizing: border-box;
+    width:350px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left:470px;
+    margin-top: 100px;
+    text-align: center;
+    background-color:lightblue;
+    color:black;
+}
+.carddetailsimg{
+    width:1300px;
+    height:700px;
+    position: absolute;
+}
+.paymentimg{
+    width:1300px;
+    height:670px;
+    position: absolute;
+}
+.headtext2{
+    position: absolute;
+    color:white;
+    font-size: large;
+    margin-left: 10px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.headtext3{
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    margin-left: 555px;
+  }
+
+
+@media screen and (max-width: 576px) {
+    h1{
+        text-align: center;
+    }
+    .card{
+        margin: 0;
+        padding: 3px;
+        box-sizing: border-box;
+        position: absolute;
+        width:380px;
+        height: 420px;
+        border-radius: 10px;
+        margin-left:22px;
+        margin-top: 50px;
+       text-align: center;
+        background-color:lightsteelblue;
+        color:black;
+        opacity: 0.8;
+    }
+    .carddetailsimg{
+        width:450px;
+        height:900px;
+        position: absolute;
+    }
+    .cardnumber{
+        margin-top: 25px;
+        width: 300px;
+        height: 40px;
+        color:black;
+        font-weight: 800;
+        border-radius: 10px;
+        font-size: large;
+    }
+    .cardholdername{
+        margin-top: 25px;
+        width: 300px;
+        height: 40px;
+        color:black;
+        font-weight: 800;
+        border-radius: 10px;
+        font-size: large;
+    }
+    .expirycvv{
+        margin-top: 25px;
+    
+    }
+    .mm{
+        width:100px;
+        height: 40px;
+        margin-right: 10px;
+        color:black;
+        font-weight: 800;
+        border-radius: 10px;
+        font-size: large;
+    }
+    .yyyy{
+        width:105px;
+        height: 40px;
+        color:black;
+        font-weight: 800;
+        border-radius: 10px;
+        font-size: large;
+    }
+    .cvv{
+        width:60px;
+        height: 40px;
+        margin-left: 10px;
+        color:black;
+        font-weight: 800;
+        border-radius: 10px;
+        font-size: large;
+    }
+    .continue{
+        width:120px;
+        height:40px;
+        border-radius: 8px;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: large;
+    }
+    .paymentoptions{
+    
+        width:350px;
+        height: 265px;
+        border-radius: 10px;
+        margin-left:35px;
+        margin-top: 150px;
+       text-align: center;
+        background-color:powderblue;
+        color:black;
+    }
+    .paymentoptions p{
+        margin-top: 20px;
+        color: red;
+    }
+    .headtext1{
+        position: absolute;
+        text-align: center;
+        color: black;
+        font-size: xx-large;
+        margin-left: 135px;
+      }
+      .paymentimg{
+        width:470px;
+        height:900px;
+        position: absolute;
+    }
+    .headtext2{
+        position: absolute;
+        color:white;
+        font-size: large;
+        margin-left: 10px;
+        margin-top: 80px;
+        font-weight: bold;
+    }
+    .headtext3{
+        position: absolute;
+        text-align: center;
+        color: white;
+        font-size: xx-large;
+        margin-left: 130px;
+      }
+    
+    
+  }

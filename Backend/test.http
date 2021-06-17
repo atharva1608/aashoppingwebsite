@@ -1,0 +1,15 @@
+POST http://localhost:4040/app/signup
+Content-Type: application/json
+
+{
+    "username":"Atharva",
+    "mobilenumber":"9082268675",
+    "email":"atharva2001alshi@gmail.com",
+    "password":"atharva",
+    "confirmpassword":"atharva"
+}
+
+
+
+
+
